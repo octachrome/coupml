@@ -1,0 +1,14 @@
+[project]
+name = "coupml"
+description = "An implementation of the card game Coup intended for machine learning"
+readme = "README.md"
+version = "0.1.0"
+authors = [
+    { name = "Chris Brown", email = "chris@thebrown.net" }
+]
+
+[project.optional-dependencies]
+dev = [
+    "numpy",
+    "transcrypt"
+]
